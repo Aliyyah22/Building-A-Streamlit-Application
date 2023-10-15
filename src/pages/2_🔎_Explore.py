@@ -15,9 +15,9 @@ def load_data(path):
     return dataset
 
 # Load the dataset
-data_path = "C:/Users/eMARS COMPUTERS/Desktop/raheemah/train.csv"
+data_path = "Train and test LP3 project/train_data.csv"
 load_df = load_data(data_path)
-test_df=pd.read_csv("C:/Users/eMARS COMPUTERS/Desktop/raheemah/test.csv")
+test_df=pd.read_csv("Train and test LP3 project/test.csv")
 
 # Define section
 data = st.container()
