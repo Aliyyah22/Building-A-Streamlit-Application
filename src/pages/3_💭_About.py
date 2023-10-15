@@ -7,7 +7,7 @@ from PIL import Image
 st.title("Learn About Team CapeCod")
 
 ##set team image
-image = Image.open('src\pictures\MicrosoftTeams-image (2).jpg.png')
+image = Image.open('src/pictures/MicrosoftTeams-image (2).jpg.png')
 
 # Set the desired size 
 new_size = (1080, 722)
@@ -29,7 +29,7 @@ st.subheader("Below are the members")
 ##For members
 st.header("Kodwo Amissah-Mensah: Data Analyst(Team Lead)")
 st.info('Aspiring Data Analyst|Machine Learning|Python|SQL|Data Visualization')
-lead=Image.open('src\pictures\photo_2023-03-16_18-13-22.jpg')
+lead=Image.open('src/pictures/photo_2023-03-16_18-13-22.jpg')
 size=(400,400)
 lead_image=lead.resize(size)
 st.image(lead_image)
@@ -57,7 +57,7 @@ if st.button("Check out my github repositories"):
 
 st.header("Regina Crabbe: Data Analyst")
 st.info('Data Analyst|Lecturer|Researcher|PHD Student')
-lead=Image.open('src\pictures\WhatsApp Image 2023-09-28 at 12.19.59.jpg')
+lead=Image.open('src/pictures/WhatsApp Image 2023-09-28 at 12.19.59.jpg')
 size=(400,400)
 lead_image=lead.resize(size)
 st.image(lead_image)
@@ -84,7 +84,7 @@ if st.button("Github"):
 ##Aliyyah's info
 st.header("Aliyyah Adebayo: Data Analyst")
 st.info('Computer science student|Data Analytic enthusiast|chess lover')
-lead=Image.open('src\pictures\photo_2023-09-28_16-55-16.jpg')
+lead=Image.open('src/pictures/photo_2023-09-28_16-55-16.jpg')
 size=(400,400)
 lead_image=lead.resize(size)
 st.image(lead_image)
@@ -113,7 +113,7 @@ if st.button("Github Repository"):
 
 st.header("Alvin Momoh: Data Analyst")
 st.info('Data Analyst || Data Analytics Professional')
-lead=Image.open('src\pictures\WhatsApp Image 2023-09-28 at 19.48.07.jpg')
+lead=Image.open('src/pictures/WhatsApp Image 2023-09-28 at 19.48.07.jpg')
 size=(400,400)
 lead_image=lead.resize(size)
 st.image(lead_image)
@@ -142,7 +142,7 @@ if st.button("Check out my github"):
 
 st.header("Leon Maina: Data Analyst")
 st.info('Data Analytics || Cloud Computing || AI/ML || Quantum Computing')
-lead=Image.open('src\pictures\WhatsApp Image 2023-10-02 at 11.28.44.jpg')
+lead=Image.open('src/pictures/WhatsApp Image 2023-10-02 at 11.28.44.jpg')
 size=(400,400)
 lead_image=lead.resize(size)
 st.image(lead_image)
